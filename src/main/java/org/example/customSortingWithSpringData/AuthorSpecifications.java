@@ -1,9 +1,9 @@
 package org.example.customSortingWithSpringData;
 
+import jakarta.persistence.criteria.Expression;
+import jakarta.persistence.criteria.Order;
 import org.springframework.data.jpa.domain.Specification;
 
-import javax.persistence.criteria.Expression;
-import javax.persistence.criteria.Order;
 import java.util.ArrayList;
 import java.util.List;
 
